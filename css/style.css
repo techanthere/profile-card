@@ -54,12 +54,13 @@ body{
     }
     footer{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
       border-top: 1px solid #eee;
       padding: 1rem;
     }
     ul{
       list-style-type: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
     footer span{
       font-weight: 700;

@@ -15,7 +15,7 @@ body{
       justify-content: center;
     }
     main{
-      width: 25rem;
+      width: 20rem;
       height: auto;
       background-color: #fff;
       display: grid;
@@ -58,7 +58,10 @@ body{
       border-top: 1px solid #eee;
       padding: 1rem;
     }
-    footer span::first-line{
+    ul{
+      list-style-type: none;
+    }
+    footer span{
       font-weight: 700;
     }
     footer p{
@@ -70,3 +73,8 @@ body{
     .color-dark{
       color:hsl(229, 23%, 23%);
     }
+    @media (min-width:470px) {
+      main{
+        width: 25rem;
+    }
+  }
